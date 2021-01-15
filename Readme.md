@@ -5,16 +5,7 @@ at the Jheronimus Academy of Data Science.
 
 ## Abstract
 
-*This work proposes an extension to recent model agnostic meta-learning methods to improve reasoning about uncertainty under multimodal task distributions. 
-Meta-learning concerns learning over a dataset of many similar tasks, so that experience from previous tasks can be generalized to new tasks, so that they 
-can be learned with few new data points. In practice, this often means that there is uncertainty about the identity of the newly learned tasks, especially 
-when this task is not completely exchangeable with the original task distribution. Furthermore, it can be difficult in practice to accurately define which 
-tasks can be considered similar enough to the original task distribution to effectively meta-learn from. This introduces additional uncertainty in the 
-predictions on new tasks, as now the usefulness of new information to the problem is itself uncertain. This thesis proposes a method that aims to solve these 
-issues by introducing methods of variational inference, without making strong assumptions about the underlying task distribution. This is achieved by modelling 
-the identity of the task as a latent random variable, which modulates the fine-tuning of a meta-learned neural network. In doing so, the algorithm can meaningfully 
-reason about the identity of new tasks, resulting in better calibrated uncertainty measures and more reasonable behavior for tasks lying outside the original 
-task distribution. This is achieved with minimal detriment to model performance.*
+*This work proposes an extension to recent model agnostic meta-learning methods to improve reasoning about uncertainty under multimodal task distributions. Meta-learning concerns learning over a dataset of many similar tasks, so that experience from previous tasks can be generalized to new tasks, so that they can be learned with few new data points. In practice, this often means that there is uncertainty about the identity of the newly learned tasks, especially when this task is not identically distributed as tasks in the original task distribution. Furthermore, it can be difficult in practice to accurately define which tasks can be considered similar enough to the original task distribution to effectively meta-learn from. This introduces additional uncertainty in the predictions on new tasks, as now the usefulness of new information to the problem is itself uncertain. This thesis proposes a method that aims to solve these issues by extending Model-Agnostic Meta-Learning with methods from variational inference, without making strong assumptions about the underlying task distribution. This is achieved by modelling the identity of the task as a latent random variable, which modulates the fine-tuning of a meta-learned neural network. In doing so, the algorithm can meaningfully reason about the identity of new tasks, resulting in better calibrated uncertainty measures and close to state-of-the-art accuracy under multimodal task distributions. Additionally, the model achieves improved performance and more reasonable uncertainty estimates on tasks lying outside the original task distribution.*
 
 ## Data used
 
